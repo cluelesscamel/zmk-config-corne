@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   COL:
-  - {t: Meh+1, s: Meh+!}
+  - $$mdi:keyboard-esc$$
   - Q
   - W
   - F
@@ -13,8 +13,8 @@ layers:
   - U
   - Y
   - {t: '''', s: '"'}
-  - {t: Meh+4, s: Meh+$}
-  - {t: Meh+2, s: Meh+@}
+  - {t: Meh+1, s: Meh+!}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: A, h: '$$mdi:apple-keyboard-option$$'}
   - {t: R, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: S, h: '$$mdi:apple-keyboard-control$$'}
@@ -29,7 +29,7 @@ layers:
   - {t: I, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: O, h: '$$mdi:apple-keyboard-option$$'}
   - {t: GAM, h: toggle}
-  - {t: Meh+3, s: Meh+#}
+  - $$mdi:keyboard-space$$
   - {t: Z, h: '$$mdi:apple-keyboard-option$$'}
   - X
   - C
