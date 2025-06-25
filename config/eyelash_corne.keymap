@@ -65,9 +65,9 @@
 			colemak {
 				display-name = "COL";
 				bindings = <
-&kp LA(LC(LS(N1))) &kp Q      &kp W       &kp F       &kp P       &kp G					 &kp UP					&kp J &kp L     &kp U       &kp Y       &kp SQT   &kp LA(LC(LS(N4)))
-&kp LA(LC(LS(N2))) &mt LALT A &mt LSHFT R &mt LCTRL S &lt SYM T   &kp D			&kp LEFT &kp ENTER &kp RIGHT	&kp H &lt SYM N &mt RCTRL E &mt RSHFT I &mt LALT O &to GAM
-&kp LA(LC(LS(N3))) &mt RALT Z &kp X       &kp C       &kp V       &kp B		&kp C_MUTE	 &kp DOWN				&kp K &kp M     &kp COMMA   &kp DOT     &kp FSLH   &kp LA(TAB)
+&kp ESC   &kp Q      &kp W       &kp F       &kp P       &kp G					 &kp UP					&kp J &kp L     &kp U       &kp Y       &kp SQT   &kp LA(LC(LS(N1)))
+&kp BSPC  &mt LALT A &mt LSHFT R &mt LCTRL S &lt SYM T   &kp D			&kp LEFT &kp ENTER &kp RIGHT	&kp H &lt SYM N &mt RCTRL E &mt RSHFT I &mt LALT O &to GAM
+&kp SPACE &mt RALT Z &kp X       &kp C       &kp V       &kp B		&kp C_MUTE	 &kp DOWN				&kp K &kp M     &kp COMMA   &kp DOT     &kp FSLH   &kp LA(TAB)
 										&lt FUN TAB &kp LGUI &lt NUM RET										&lt NAV ESC &kp SPACE   &kp BSPC
 				>;
 				sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
